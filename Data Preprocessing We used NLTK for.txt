@@ -1,0 +1,14 @@
+Data Preprocessing: We used NLTK for tokenization and stopwords removal, which helps reduce noise in the dataset and improves model performance.
+
+Feature Extraction: TfidfVectorizer was chosen over CountVectorizer as it considers both word frequency and importance, which is crucial for text classification tasks.
+
+Model Development: We implemented Naive Bayes and SVM models, which are suitable for text classification tasks. Naive Bayes is good for handling sparse data and works well with TF-IDF features, while SVM can handle complex decision boundaries.
+
+Model Comparison: We evaluated both models using accuracy and F1-score metrics, providing a comprehensive comparison of their performance.
+Best practices followed:
+
+Splitting the data into training and test sets for proper evaluation
+Using appropriate preprocessing techniques to clean the text data
+Employing feature extraction methods tailored to text data
+Comparing multiple models to determine the most suitable one for the task
+To further improve the models, consider experimenting with hyperparameter tuning, ensemble methods, or more advanced deep learning architectures like LSTM networks. Additionally, exploring domain-specific resources or fine-tuning pre-trained language models could lead to better performance for emotion classification tasks.
